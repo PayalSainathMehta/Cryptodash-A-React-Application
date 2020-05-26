@@ -2,14 +2,14 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import WelcomeMessage from "./WelcomeMessage";
-import styled, {css} from "styled-components";
+// import styled, {css} from "styled-components";
 
-const MyButton = styled.div`
-  color: green;
-  // ${props => props.primary && css`
-  //       color: palevioletred;
-  // ` }
-`
+// const MyButton = styled.div`
+//   color: green;
+//   // ${props => props.primary && css`
+//   //       color: palevioletred;
+//   // ` }
+// `
 
 // const TomatoButton = styled(MyButton)`
 //     color: tomato;
