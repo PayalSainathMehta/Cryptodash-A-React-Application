@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import WelcomeMessage from "./WelcomeMessage";
 import AppLayout from "./AppLayout";
+import AppBar from "./AppBar";
 // import styled, {css} from "styled-components";
 
 // const MyButton = styled.div`
@@ -19,6 +20,7 @@ import AppLayout from "./AppLayout";
 function Index() {
   return (
       <AppLayout>
+        <AppBar />
         <WelcomeMessage/>
         {/*<MyButton>Hello</MyButton>*/}
         {/*<MyButton primary>Hello</MyButton>*/}
