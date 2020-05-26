@@ -2,6 +2,7 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import WelcomeMessage from "./WelcomeMessage";
+import AppLayout from "./AppLayout";
 // import styled, {css} from "styled-components";
 
 // const MyButton = styled.div`
@@ -17,12 +18,12 @@ import WelcomeMessage from "./WelcomeMessage";
 // `
 function Index() {
   return (
-      <div>
+      <AppLayout>
         <WelcomeMessage/>
         {/*<MyButton>Hello</MyButton>*/}
         {/*<MyButton primary>Hello</MyButton>*/}
         {/*<TomatoButton>Hello</TomatoButton>*/}
-      </div>
+      </AppLayout>
   );
 }
 
