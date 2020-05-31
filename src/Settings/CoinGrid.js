@@ -2,7 +2,6 @@ import React from "react";
 import {AppContext} from "../App/AppProvider";
 import styled from "styled-components";
 import CoinTile from "./CoinTile";
-import {filter} from "fuzzy";
 
 
 export const CoinGridStyled = styled.div`
